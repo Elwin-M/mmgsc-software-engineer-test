@@ -45,16 +45,21 @@ User Story 2: As Elwin, I want to filter ATM transactions, so that I can quickly
 I have also deployed this on my webserver at [mmgsc.elwinm.ca](https://mmgsc.elwinm.ca/)
 
 The main files related to this project are located at:
+
 The contoller:
-./app/Livewire/Transactions.php
+
+    ./app/Livewire/Transactions.php
+    
 The view:
-./resources/views/livewire/transactions.blade.php
+    
+    ./resources/views/livewire/transactions.blade.php
 
 Misc files:
-./resources/views/components/modules/[sidebar, header, button-confirm].blade.php
-./resources/views/components/layouts/app.blade.php
-./resources/views/livewire/settings.blade.php
-./resources/css/app.css
-./routes/web.php
-./app/Modesl/AtmTransactions.php
-./app/Livewire/Settings.php
+
+    ./resources/views/components/modules/[sidebar, header, button-confirm].blade.php
+    ./resources/views/components/layouts/app.blade.php
+    ./resources/views/livewire/settings.blade.php
+    ./resources/css/app.css
+    ./routes/web.php
+    ./app/Modesl/AtmTransactions.php
+    ./app/Livewire/Settings.php
