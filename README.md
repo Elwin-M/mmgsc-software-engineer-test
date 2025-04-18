@@ -19,9 +19,11 @@ Laravel Installer
 Install it globally by running:
     composer global require laravel/installer
 
+
 ## Setup Instructions
 
 [Clone this repository](https://github.com/Elwin-M/mmgsc-software-engineer-test) or extract the archive.
+
 If the reposity is cloned, be sure to run `composer install` and `npm install` to download any dependencies. 
 
 Open terminal and navigate to the project directory:
@@ -39,6 +41,7 @@ Open your browser and go to:
 User Story 1: As Elwin, I want to view all ATM transactions, so that I can tell at a glance what the issue is.
 
 User Story 2: As Elwin, I want to filter ATM transactions, so that I can quickly find what I am looking for without wasting time.
+
 
 ## Live Deployment & Other Details
 
