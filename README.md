@@ -2,13 +2,13 @@
 
 This is a Laravel/livewire (includes Tailwind CSS, and Alpine.js) project developed by Elwin, using the API available at: [Swagger UI](https://dev.smartjournal.net/swagger-ui/#/journal-txn-controller-test/)
 
-# Requirements
 
-## Before running the project, make sure the following are installed:
+# Requirements - before running the project, make sure the following are installed:
 
 [Official Instructions](https://laravel.com/docs/12.x/installation)
 
 [PHP 8.2 or higher](https://www.php.net/)
+
 Make sure pdo_sqlite is enabled in your php.ini file or the server will fail to connect.
 
 [Composer](https://getcomposer.org/)
