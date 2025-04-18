@@ -22,19 +22,16 @@
 
     <body class="bg-gray-100">
         <div class="mx-auto pt-16 lg:flex lg:gap-x-8 lg:pr-8 lg:pl-4">
+            {{-- Heaader --}}
+            <x-modules.header />
 
-        {{-- Heaader --}}
-        <x-modules.header />
+            {{-- Sidebar --}}
+            <x-modules.sidebar />
 
-
-        {{-- Sidebar --}}
-        <x-modules.sidebar />
-
-        <div class="w-full">
-
-        {{ $slot }}
-
-        </div>
+            {{-- Main Content --}}
+            <div class="w-full">
+                {{ $slot }}
+            </div>
         </div>
     </body>
 </html>
